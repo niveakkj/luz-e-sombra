@@ -1,0 +1,25 @@
+body{
+  font-family: "Comfortaa", sans-serif;
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: black;
+  font-weight: 1000;
+  font-size: 35px
+  text-aligh: center;
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  max-width: 90%;
+}
+
+footer{
+ font-family: "MedievalSharp", cursive; 
+}
+
+button{
+  font-family: "Anton", sans-serif; 
+}

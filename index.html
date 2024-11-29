@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300..700&family=MedievalSharp&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <div class ="passo ativo" id="passo-0">
+        <img src="logo.png">
+        <p>
+          Era uma vez, em um reino distante, duas irmãs gêmeas: Lumine e Melina. Lumine tinha cabelos dourados que brilhavam como o sol, e olhos azuis profundos, que refletiam sua curiosidade e bondade. Ela sempre vestia um vestido branco, com detalhes dourados, simbolizando sua conexão com a luz. Melina, por outro lado, possuía longos cabelos prateados, que pareciam flutuar ao vento, e olhos verdes intensos, repletos de uma determinação ardente. Seu traje, uma combinação de azul escuro e prateado, era adornado com símbolos de mistério, representando seu fascínio pelas sombras.
+
+As irmãs eram inseparáveis, viajando juntas entre mundos fantásticos, onde viviam aventuras que desafiavam a imaginação. Um dia, durante uma exploração em uma floresta mágica, elas se depararam com uma deusa desconhecida, que as envolveu em uma luz ofuscante. Sem aviso, a deusa lançou as gêmeas em direções opostas, separando-as e levando-as a um novo mundo chamado Teyvat.
+
+Lumine caiu na região de Mondstadt, em um tempo de festivais e celebrações, enquanto Melina aterrissou nas sombrias florestas de Liyue, em uma época marcada por intrigas e conspirações. Ambas, perdidas e confusas, começaram a explorar suas novas realidades.
+        </p>
+        
+        <button class="proximo" data-proximo="1">
+          Lumine decide buscar pistas sobre sua irmã.
+        </button>
+        
+        
+        <button class="proximo" data-proximo="2">
+          Lumine se junta a um grupo de aventureiros para explorar Mondstadt.
+        </button>
+        
+      </div>
+      
+      <div class="passo" id="passo-1">
+          <p>
+             Escolha do Botão 1 (Lumine)
+          </p>
+          
+          <button class="proximo" data-proximo="3">
+            Lumine decide investigar a Ordem do Abismo.
+            </button>
+          
+            <button class="proximo" data-proximo="4">
+            Lumine tenta se juntar a um grupo de defensores de Mondstadt.
+            </button>
+      </div>
+      
+        <div class="passo" id="passo-2">
+          <img src="logo.png">
+          <p>
+            Escolha do Botão 2 (Melina)
+
+          </p>
+          
+          <button class="proximo" data-proximo="5">
+            Melina decide se juntar à Ordem do Abismo
+            </button>
+          
+            <button class="proximo" data-proximo="6">
+            Melina busca aliados na escuridão.
+
+            </button>
+      </div>
+      
+       <div class="passo" id="passo-5">
+         <img src="logo.png">
+          <p>
+             Escolha do Botão 5
+          </p>
+          
+          <button class="proximo" data-proximo="7">
+            Melina decide enfrentar Celestia. 
+            </button>
+          
+            <button class="proximo" data-proximo="8">
+            Melina busca a Gnosis de outros deuses.
+            </button>
+      </div>
+      
+       <div class="passo" id="passo-6">
+         <img src="perdeu.png">
+          <p>
+            Perdeu
+          </p>
+          
+          <button class="proximo" data-proximo="0">
+            Reiniciar?
+            </button>
+          
+      </div>
+      
+       <div class="passo" id="passo-7">
+         <img src="ganhou.png">
+          <p>
+             Escolha do Botão 7
+
+          </p>
+          
+          <button class="proximo" data-proximo="0">
+            Reiniciar?
+            </button>
+          
+      </div>
+      
+       <div class="passo" id="passo-8">
+         <img src="logo.png">
+          <p>
+             Volta para Passo 1
+          </p>
+          
+          <button class="proximo" data-proximo="3">
+            Lumine decide investigar a Ordem do Abismo.
+            </button>
+          
+            <button class="proximo" data-proximo="4">
+            Lumine tenta se juntar a um grupo de defensores de Mondstadt.
+            </button>
+      </div>
+      
+       <div class="passo" id="passo-3">
+         <img src="logo.png">
+          <p>
+             Escolha do Botão 3 (Lumine na Ordem)
+          </p>
+          
+          <button class="proximo" data-proximo="9">
+            Lumine tenta resgatar Melina. 
+            </button>
+          
+            <button class="proximo" data-proximo="10">
+             Lumine enfrenta Melina.
+            </button>
+      </div>
+      
+       <div class="passo" id="passo-4">
+         <img src="ganhou.png">
+          <p>
+            Ganhar
+          </p>
+          
+          <button class="proximo" data-proximo="0">
+            Reiniciar?
+            </button>
+      </div>
+      
+       <div class="passo" id="passo-10">
+         <img src="perdeu.png">
+          <p>
+            Perdeu
+          </p>
+          
+          <button class="proximo" data-proximo="0">
+            Reiniciar?
+            </button>
+      </div>
+      
+       <div class="passo" id="passo-9">
+         <img src="ganhou.png">
+          <p>
+            Ganhar
+
+          </p>
+          
+          <button class="proximo" data-proximo="0">
+            Reiniciar?
+            </button>
+      </div>
+      
+      <footer>
+        <p> jogo produzido por <a href="https://github.com/niveakkj"
+      
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
